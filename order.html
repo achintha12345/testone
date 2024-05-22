@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Form</title>
+  <link rel="stylesheet" href="order.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fontawesome.com/v4/icons/">
+  <link rel="icon" type="image/x-icon" href="./images/images/favicon.ico">
+
+      <!-- Include Font Awesome CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+
+        <a href="./Home Page.html" class="logo"><i class="fas fa-shopping-basket"></i> &nbsp;Fresh Mart</a>
+        
+        <ul>
+            <li><a href="Home Page.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="loyalty.html">Loyalty Registration</a></li>
+            <li><a href="dairy.html">Dairy Product</a></li>
+            <li><a href="vegetable.html">Vegetables</a></li>
+            <li><a href="cosmetics.html">Cosmetics</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button style="margin-right: 10px;" type="submit">Search</button>
+        </div>
+
+        <a href="#" class="user">
+            <i style="margin-right: 30px;"  class="fas fa-user"></i>
+        
+          </a>
+          <!-- Cart -->
+          <a href="#" class="cart">
+            <i class="fas fa-shopping-cart"></i>
+        
+          </a>
+        
+    </nav>
+
+ 
+
+<div class="container">
+  <h1>Order Form</h1>
+  <form action="#" method="post">
+    <div class="form-group">
+      <label for="product_name">Product Name:</label>
+      <input type="text" id="product_name" name="product_name" required>
+    </div>
+    <div class="form-group">
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required>
+    </div>
+    <div class="form-group">
+      <label for="shipping_address">Address:</label>
+      <textarea id="shipping_address" name="shipping_address" rows="4" required></textarea>
+    </div>
+    <div class="form-group">
+      <label for="payment_method">Payment Method:</label>
+      <select id="payment_method" name="payment_method" required>
+        <option value="">Select Payment Method</option>
+        <option value="credit_card">Credit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="bank_transfer">Bank Transfer</option>
+      </select>
+    </div>
+    <button type="submit">Add to Cart</button>
+  </form>
+</div>
+
+
+<!--footer section start-->
+
+<footer class="footer">
+  <section class="row">
+    <section class="col">
+      <h3>Contact us</h3>
+      <p>Address: 356/3 DS Senanayake Veediya,kandy</p>
+      <p>Phone number: 0703412849</p>
+      <p class="email-id">Email: achintha@gmail.com</p>
+    </section>
+    <section class="col">
+      <h3>Useful Links<div class="underline"></div></h3>
+      <ul class="navbarlinks">
+        <li><a href="Home Page.html">Home</a></li>
+        <li><a href="about.html">About US</a></li>
+        <li><a href="loyalty.html">Loyalaty</a></li>
+        <li><a href="order.html">Order</a></li>
+      </ul>
+    </section>
+    <section class="col">
+      <h3>Suggestions<div class="underline"></div></h3>
+      <form>
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <input type="email" placeholder="Enter your email id" required>
+        
+      </form>
+      <section class="social-icons">
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+      </section>
+    </section>
+  </section>
+  <hr>
+  <section class="bottom-bar">
+    <p> COPYRIGHT&copy; FRESH MART 2024.ALL RIGHTS RESERVED. </p>
+  </section>
+</footer>
+<!--footer section end-->
+
+</body>
+</html>

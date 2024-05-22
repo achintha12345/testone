@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loyalty Program Registration</title>
+  <link rel="stylesheet" href="loyalaty.css">
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+</head>
+<body>
+
+    <nav>
+        <a href="./Home Page.html" class="logo"><i class="fas fa-shopping-basket"></i> &nbsp;Fresh Mart</a>
+        
+        <ul>
+            <li><a href="Home Page.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="loyalty.html">Loyalty Registration</a></li>
+            <li><a href="dairy.html">Dairy Product</a></li>
+            <li><a href="vegetable.html">Vegetables</a></li>
+            <li><a href="cosmetics.html">Cosmetics</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button style="margin-right: 10px;" type="submit">Search</button>
+        </div>
+
+        <a href="#" class="user">
+            <i style="margin-right: 30px;"  class="fas fa-user"></i>
+        
+          </a>
+          <!-- Cart -->
+          <a href="#" class="cart">
+            <i class="fas fa-shopping-cart"></i>
+        
+          </a>
+        
+    </nav>
+
+<div class="container">
+  <h1>Loyalty Program Registration</h1>
+  <form action="#" method="post">
+    <div class="form-group">
+      <label for="customer_name">Customer Name:</label>
+      <input type="text" id="customer_name" name="customer_name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+      <label for="loyalty_scheme">Choose Loyalty Scheme:</label>
+      <select id="loyalty_scheme" name="loyalty_scheme" required>
+        <option value="">Select Loyalty Scheme</option>
+        <option value="gold">Gold Scheme</option>
+        <option value="silver">Silver Scheme</option>
+        <option value="bronze">Bronze Scheme</option>
+      </select>
+    </div>
+    <div class="loyalty-benefits">
+      <h2>Loyalty Scheme Benefits:</h2>
+      <p><strong>Gold Scheme:</strong> 10% discount on all purchases, exclusive access to special events.</p>
+      <p><strong>Silver Scheme:</strong> 5% discount on all purchases, monthly bonus points.</p>
+      <p><strong>Bronze Scheme:</strong> 2% discount on all purchases.</p>
+    </div>
+    <button type="submit">Register</button>
+  </form>
+</div>
+
+</body>
+</html>
