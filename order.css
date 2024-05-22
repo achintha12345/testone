@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:#dfdada;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+
+.logo{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+    margin-right: auto; /* Pushes the logo to the right side */
+    text-decoration: none; /* Removes underline */
+}
+
+
+.logo i{
+    color:orange
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 120px;
+    display: flex;
+
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.user, .cart {
+    
+    color: #070707;
+    text-decoration: none;
+}
+
+.user i, .cart i {
+    font-size: 24px; 
+}
+
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0066f5;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  .hamburger-sec{
+    display: none;
+  }
+
+
+/*footer*/
+
+.footer {
+  width: 100%;
+  background-color: rgb(243, 236, 236);
+  color: black;
+  padding: 2px 0 30px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.row {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 90px;
+}
+
+.col {
+  flex-basis: 20%;
+  padding-top: 50px;
+  color: black;
+  
+}
+
+
+.navbarlinks{
+  display: block;
+}
+
+.col h3 {
+  width: fit-content;
+  margin-bottom: 20px;
+  position: relative;
+  text-decoration: underline;
+  margin-left: 30px;
+}
+
+.email-id {
+  width: fit-content;
+  border-bottom: 1px solid rgb(22, 22, 21);
+  margin: 20px 0;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(4, 4, 4);
+}
+
+form {
+  padding-bottom: 15px;
+  display: flex;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #030303;
+  margin-bottom: 50px;
+}
+
+.bottom-bar {
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: rgb(243, 236, 236);
+  color: black;
+}
+
+.social-icons {
+  font-size: 40px;
+}
+
+.social-icons :hover {
+  background-color: rgb(13, 12, 12);
+  color: #ebe7e7;
+}
+
+
+
+/* mobile responsive */
+
+
+
+  
+  @media only screen and (max-width: 768px){
+
+  }
